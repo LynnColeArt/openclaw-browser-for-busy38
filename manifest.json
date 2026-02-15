@@ -1,0 +1,43 @@
+{
+  "name": "busy-38-browser",
+  "version": "0.1.0",
+  "description": "OpenClaw browser automation for Busy38 with Toots security screening. Provides browser:* namespace for web automation with security-first content prescreening.",
+  "license": "MIT",
+  "type": "toolkit",
+  "permissions": [
+    "browser:control",
+    "browser:navigate",
+    "browser:snapshot",
+    "browser:screenshot",
+    "browser:click",
+    "browser:type",
+    "browser:evaluate",
+    "browser:status",
+    "browser:close"
+  ],
+  "toolkit_path": "toolkit",
+  "dependencies": {
+    "python": ">=3.9",
+    "packages": [
+      "playwright>=1.40.0",
+      "beautifulsoup4>=4.12.0",
+      " bleach>=6.0.0",
+      "Pillow>=10.0.0"
+    ]
+  },
+  "config": {
+    "schema": "security.yaml",
+    "defaults": {
+      "headless": false,
+      "viewport": {"width": 1280, "height": 720},
+      "security_level": "strict",
+      "enable_toots_screening": true,
+      "audit_all_actions": true
+    }
+  },
+  "compatibility": {
+    "busy38": ">=0.1.0"
+  },
+  "repository": "https://github.com/LynnColeArt/openclaw-browser-for-busy38",
+  "authors": ["Lynn Cole <lynncoleart@example.com>"]
+}
