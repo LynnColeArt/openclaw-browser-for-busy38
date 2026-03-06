@@ -262,7 +262,7 @@ DANGEROUS_JS_PATTERNS = [
 ### 4.1 Directory Structure
 
 ```
-vendor/openclaw-browser-for-busy38/
+vendor/busy-38-browser/
 ├── manifest.json              # Plugin metadata
 ├── tool_spec.yaml            # Tool definitions
 ├── requirements.txt          # Python dependencies
