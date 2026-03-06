@@ -1,5 +1,5 @@
 {
-  "name": "busy-38-browser",
+  "name": "openclaw-browser-for-busy38",
   "version": "0.1.0",
   "description": "OpenClaw browser automation for Busy38 with Toots security screening. Provides browser:* namespace for web automation with security-first content prescreening.",
   "license": "MIT",
