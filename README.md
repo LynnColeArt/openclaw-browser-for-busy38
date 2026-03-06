@@ -11,6 +11,11 @@ This plugin brings OpenClaw's powerful browser automation capabilities to Busy38
 - **Busy38 Integration**: Native cheatcode namespace (`browser:*`) with full plugin schema support
 - **MIT Licensed**: Same license as OpenClaw
 
+## Branching
+
+- Default branch is `main`.
+- Rename-prep and maintenance PRs should target `main` instead of the historical `master` branch.
+
 ## Security Features
 
 ### Toots Content Prescreener
