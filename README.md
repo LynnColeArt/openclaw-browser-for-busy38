@@ -50,7 +50,7 @@ audit_all_actions: true
 
 ```json
 {
-  "name": "busy-38-browser",
+  "name": "openclaw-browser-for-busy38",
   "version": "0.1.0",
   "description": "OpenClaw browser automation with Toots security screening",
   "license": "MIT",
@@ -122,13 +122,13 @@ The plugin provides hooks for:
 
 ```bash
 cd /path/to/busy38/vendor
-git clone https://github.com/LynnColeArt/openclaw-browser-for-busy38.git busy-38-browser
+git clone https://github.com/LynnColeArt/openclaw-browser-for-busy38.git openclaw-browser-for-busy38
 ```
 
 2. Install Python dependencies:
 
 ```bash
-cd busy-38-browser
+cd openclaw-browser-for-busy38
 pip install -r requirements.txt
 playwright install chromium
 ```
@@ -139,7 +139,7 @@ playwright install chromium
 # busy38-config.yaml
 plugins:
   vendor:
-    - busy-38-browser
+    - openclaw-browser-for-busy38
 ```
 
 4. Restart Busy38
@@ -229,7 +229,7 @@ audit:
 ## Architecture
 
 ```
-busy-38-browser/
+openclaw-browser-for-busy38/
 ├── manifest.json          # Plugin metadata
 ├── tool_spec.yaml         # Tool definitions
 ├── requirements.txt       # Python dependencies
